@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PaymentResources'
+  s.name             = 'TestResources'
   s.version          = '1.0.0'
   s.summary          = 'WalleeSDKResources for iOS Apps implementing payment via Wallee payment service'
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
        }
   s.author           = { 'NetPumi2' => 'technical-systems@wallee.com' }
   # s.source           = { :git => 'https://github.com/NetPumi2/PaymentResources.git', :tag => s.version.to_s }
-  s.source           = { :http => 'https://github.com/NetPumi2/test-pod-payment-resources/raw/main/PaymentResources/1.0.0/payment_resources_1_0_0.zip'}
+  s.source           = { :http => 'https://github.com/NetPumi2/test-pod-payment-resources/raw/main/TestResources/1.0.0/TestResources.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.requires_arc                   = true
   s.platform                       = :ios
