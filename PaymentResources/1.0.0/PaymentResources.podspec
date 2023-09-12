@@ -20,12 +20,15 @@ Pod::Spec.new do |s|
   s.description      = "Description of this shit"
 
 
-  s.homepage         = 'https://github.com/NetPumi2/PaymentResources'
+  s.homepage         = 'https://github.com/NetPumi2/test-pod-payment-resources'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :http => 'https://github.com/NetPumi2/test-pod-payment-resources/raw/main/LICENSE' }
+  s.license          = {
+    :type => "Commercial",
+    :text => "Copyright 2023 "
+       }
   s.author           = { 'NetPumi2' => 'technical-systems@wallee.com' }
   # s.source           = { :git => 'https://github.com/NetPumi2/PaymentResources.git', :tag => s.version.to_s }
-  s.source           = { :http => 'https://github.com/NetPumi2/test-pod-payment-resources/raw/main/payment_resources_1_0_0.zip'}
+  s.source           = { :http => 'https://github.com/NetPumi2/test-pod-payment-resources/raw/main/PaymentResources/1.0.0/payment_resources_1_0_0.zip'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.requires_arc                   = true
   s.platform                       = :ios
