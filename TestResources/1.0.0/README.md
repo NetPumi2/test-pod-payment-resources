@@ -17,7 +17,7 @@ PaymentResources is available through [CocoaPods](https://cocoapods.org). To ins
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'PaymentResources'
+pod 'TestResources'
 ```
 
 ## Author
