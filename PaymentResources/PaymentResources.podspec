@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PaymentResources'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of PaymentResources.'
+  s.summary          = 'WalleeSDKResources for iOS Apps implementing payment via Wallee payment service'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/NetPumi2/PaymentResources'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :http => 'https://github.com/NetPumi2/test-pod-payment-resources/raw/main/LICENSE' }
   s.author           = { 'NetPumi2' => 'technical-systems@wallee.com' }
   # s.source           = { :git => 'https://github.com/NetPumi2/PaymentResources.git', :tag => s.version.to_s }
   s.source           = { :http => 'https://github.com/NetPumi2/test-pod-payment-resources/raw/main/payment_resources_1_0_0.zip'}
